@@ -41,6 +41,7 @@ public class Main {
         assert(counts.failed == 1);
         System.out.println("Done counting :)\n");
     }
+    // for testing boundary conditions
     static void testBoundaryConditions() {
         System.out.println("Testing boundary conditions...\n");
         int[] presentCapacities = {96, 76};
